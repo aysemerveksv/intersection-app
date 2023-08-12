@@ -1,0 +1,36 @@
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0; 
+    padding: 0; 
+    background-image: url("https://wallpapers.com/images/featured/alice-in-wonderland-background-khb1bmkt53kb4222.jpg");
+    /* background-size: cover;  */
+    background-position: center;
+    background-repeat: no-repeat; 
+    color: #fff; 
+  }
+ 
+  .h1 {
+    color: #333;
+  }
+  button {
+    position: relative; /* Needed for absolute positioning of bubbles */
+    padding: 15px 30px;
+    font-size: 18px;
+    margin: 10px;
+    /* background-color: #6F88F8; */
+    border: 2px solid #c0c0c0;
+    color: #fff;
+    background-image: url("https://i.pinimg.com/736x/ef/cb/af/efcbaf3aa19e5b93d15f7d94a62b340f.jpg"); 
+    border-radius: 8px;
+    cursor: pointer;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+  }
+  
+  button:hover {
+    /* background-color: #2145F7; */
+    border-color: #a0a0a0; 
+}
